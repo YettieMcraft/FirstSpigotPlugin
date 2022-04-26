@@ -1,0 +1,17 @@
+name: FirstPlugin
+version: '${project.version}'
+main: me.jacobberger.firstplugin.FirstPlugin
+api-version: 1.18
+commands:
+  loser:
+    description: Open the inventory menu
+    usage: /<command>
+  sethome:
+    description: Grabs current player coords
+    usage: /<command>
+  home:
+    description: Teleports to set coords
+    usage: /<command>
+  fart:
+    description: Fart on a loser
+    usage: /<command> [target]
